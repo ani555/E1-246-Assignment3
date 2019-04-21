@@ -1,0 +1,5 @@
+{
+	"smoothing": "backoff",
+	"alpha": 0.8,
+	"num_eval": 10
+}
