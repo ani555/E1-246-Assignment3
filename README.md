@@ -30,7 +30,6 @@ All the hyperparameters are loaded from `config.json` file. The config file shou
 To train the parser run:
 ```
 python cky.py --mode train --data_dir data/
-
 ```
 The `--data_dir` flag indicates the directory where the grammar file will be saved.
 
