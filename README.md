@@ -20,7 +20,9 @@ pip3 install -r requirements.txt
 
 
 ### Setting the hyperparameters
-All the hyperparameters are loaded from `config.json` file. The config file should be under the same directory as that of the python files. Here I have briefly described each of these hyperparameter flags present in `config.json`.
+All the hyperparameters are loaded from `config.json` file. The config file is assumed to be under the same directory as that of the python files. If the config file is to be loaded from different directory use `--config_file` to specify file path. 
+
+Here I have briefly described each of these hyperparameter flags present in `config.json`.
 * `smoothing` : the type of smoothing to use (takes values "backoff" or "interpolation")
 * `alpha` : smoothing parameter
 * `num_eval` : number of sentences to evaluate , required during test time
@@ -31,7 +33,7 @@ To train the parser run:
 ```
 python cky.py --mode train --data_dir data/
 ```
-The `--data_dir` flag indicates the directory where the grammar file will be saved.
+The `--data_dir` flag indicates the directory where the train, test data, grammar, probabilities and mappings file will be saved.
 
 To parse an input sentence run:
 ```
@@ -53,6 +55,6 @@ python cky.py --mode test
 Options 1 and 2 are also applicable here.
 
 ## Pretrained Model
-The `data` directory already contains a grammar file
+The `data` directory already contains a grammar, probabilities and mappings file.
 ## References
-<cite>[1] Bahdanau, Dzmitry, Kyunghyun Cho, and Yoshua Bengio. "Neural machine translation by jointly learning to align and translate." arXiv preprint arXiv:1409.0473 (2014).</cite>
+<cite>[1] Satoshi Sekine and Michael J. Collins. 1997. [Evalb](https://nlp.cs.nyu.edu/evalb/)</cite>
