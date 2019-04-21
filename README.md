@@ -54,5 +54,9 @@ Options 1 and 2 are also applicable here.
 
 ## Pretrained Model
 The `data` directory already contains a grammar, probabilities and mappings file.
+
+## Evaluation
+For evaluation I use the Evalb library [1] which is also uploaded in this repository.
+
 ## References
 <cite>[1] Satoshi Sekine and Michael J. Collins. 1997. [Evalb](https://nlp.cs.nyu.edu/evalb/)</cite>
