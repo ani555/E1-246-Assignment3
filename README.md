@@ -61,8 +61,8 @@ For evaluation I use the Evalb library [1] which is also uploaded in this reposi
 
 ## Results
 
-Labelled Precision      =  71.46
-Labelled Recall         =  68.64
+Labelled Precision      =  71.46 <br>
+Labelled Recall         =  68.64 <br>
 F Measure       =  70.02
 
 ## References
