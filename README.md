@@ -1,8 +1,6 @@
 # E1-246-Assignment3
 CKY parser using PCFG
 
-# E1-246-Assignment2
-
 ## About
 This repository contains the implementation of cky algorithm for constituency parsing using probabilistic context free grammar (PCFG).
 
