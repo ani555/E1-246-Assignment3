@@ -63,7 +63,8 @@ For evaluation I use the Evalb library [1] which is also uploaded in this reposi
 
 Labelled Precision      =  71.46 <br>
 Labelled Recall         =  68.64 <br>
-F Measure       =  70.02
+F Measure       =  70.02 <br>
+For more details refer logs/evalb_backoff.txt
 
 ## References
 <cite>[1] Satoshi Sekine and Michael J. Collins. 1997. [Evalb](https://nlp.cs.nyu.edu/evalb/)</cite>
