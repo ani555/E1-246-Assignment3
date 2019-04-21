@@ -58,5 +58,12 @@ The `data` directory already contains a grammar, probabilities and mappings file
 ## Evaluation
 For evaluation I use the Evalb library [1] which is also uploaded in this repository.
 
+
+## Results
+
+Labelled Precision      =  71.46
+Labelled Recall         =  68.64
+F Measure       =  70.02
+
 ## References
 <cite>[1] Satoshi Sekine and Michael J. Collins. 1997. [Evalb](https://nlp.cs.nyu.edu/evalb/)</cite>
